@@ -154,6 +154,7 @@ main{
 }
 .about{
     display:grid;
+    margin-top:-1rem;
     justify-content: center;
     text-align:center;
     padding:0 1rem;
