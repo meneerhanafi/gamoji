@@ -89,7 +89,7 @@ main::before {
     width: 100%;
     z-index: -1;
     background-image: linear-gradient(
-        rgba(66, 66, 66, 0.823),
+        rgba(33, 33, 33, 0.823),
         rgba(0, 0, 0, 0.523)
       ),
       url('cover.jpg');
@@ -142,7 +142,7 @@ main{
     letter-spacing: 0.15rem;
     border:none;
     width:250px;
-    background-color: white);
+    background-color: white;
     animation:fadebutton 1s;
     animation-delay: 0.5s;
     animation-fill-mode: both;
@@ -153,8 +153,8 @@ main{
     to {transform: translateX(0);}
 }
 .about{
+    margin-top:-0.5rem;
     display:grid;
-    margin-top:-1rem;
     justify-content: center;
     text-align:center;
     padding:0 1rem;
