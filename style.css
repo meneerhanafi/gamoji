@@ -154,7 +154,7 @@ main{
     to {transform: translateX(0);}
 }
 .about{
-    margin-top:0rem;
+    margin-top:-1rem;
     display:grid;
     justify-content: center;
     text-align:center;
