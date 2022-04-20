@@ -127,6 +127,7 @@ main{
     font-size:1.25rem;
     letter-spacing: 0rem;
     font-family: 'Playfair Display', serif;
+    font-style:italic;
   }
 @keyframes fadetext {
     from {transform: translateY(-100%);}
