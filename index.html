@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
+    <title>Gamoji - Barbershop Surabaya</title>
 </head>
 <body>
+    <!--SITE HEADER-->
     <header>
         <img class="hamburger" src="bars-solid.svg">
         <img class="logo" src="logo.png">
         <img class="instagram" src="instagram.svg">
     </header>
+    <!--NAVIGATION HIDDEN FIRST-->
     <nav class="nav">
         <ul>
             <li><a>ABOUT US</a></li>
             <li><a>SERVICES</a></li>
             <li><a>OUR BARBERS</a></li>
-            <li><a>BUSINESS HOURS</a></li>
             <li><a>LOCATION</a></li>
-            <li><a>BOOK NOW</a></li>
+            <li><a>BUSINESS HOURS</a></li>
+            <li><a>SCHEDULE APPOINTMENT</a></li>
         </ul>
     </nav>
+    <!--MAIN PAGE-->
     <main>
         <div class="text">
             <h1>
@@ -33,14 +36,79 @@
             <button class="schedule-btn">
                 SCHEDULE APPOINTMENT
             </button>
-            
         </div>
-       
     </main>
-    <section class="about">
-        <h2>ABOUT GAMOJI</h2>
-        <p>Gamoji provides you the best gentleman haircut with the most affordable price to start your day.</p>
+    <!--ABOUT PAGE-->
+    <section id="about">
+        <h2 class="page-title">ABOUT GAMOJI</h2>
+        <p>Gamoji provides you the best gentlemen haircut with the most affordable price to start your day.</p>
     </section>
+    <!--SERVICES PAGE-->
+    <section id ="services"
+    class="fade-in">
+        <div class="services-container fade-in">
+            <img src="scissors.png">
+            <figcaption>Gentlemen's Cut</figcaption>
+        </div>
+        <div class="services-container fade-in">
+            <img src="razor.png">
+            <figcaption>Razor Shaved</figcaption>
+        </div>
+        <div class="services-container fade-in">
+            <img src="boy.png">
+            <figcaption>Children's Specialty</figcaption>
+        </div>
+        <div class="services-container fade-in">
+            <img src="shampoo.png">
+            <figcaption>Other Services</figcaption>
+        </div>
+    </section>
+    <!--OUR BARBERS PAGE-->
+    <section id="our-barbers"
+    class="fade-in">
+        <div class="barber-container">
+            <img src="janus.png">
+            <figcaption>DROLEO</figcaption>
+        </div> 
+        <div class="barber-container">
+            <img src="romano.png">
+            <figcaption>TROIZA</figcaption>
+        </div> 
+        <div class="barber-container">
+            <img src="randy.png">
+            <figcaption>ARGA</figcaption>
+        </div> 
+    </section>
+
+    <footer>
+        <section id="location">
+           <h2 class="footer-title">Location</h2> 
+           <p>Mojo Klangru Kidul xxx
+               <br>
+               Surabaya xxx
+               <br>
+               Jawa Timur - Indonesia
+           </p>
+           <p>(xxx) xxx-xxx</p>
+        </section>
+        <section id="business-hours">
+            <h2 class="footer-title">Business Hours</h2> 
+            <p>Monday – Friday | 07:30 – 19:30
+                <br>
+                Saturday | 07:30 – 17:30
+                <br>
+                Sunday | 08.00 – 16:30
+            </p>
+         </section>
+         <section id="copyright">
+            &copy2022 Gamoji. All Rights Reserved.
+         </section>
+    </footer>
+
+
+
+
+
 
     <script src="gamoji.js"></script>
 </body>
